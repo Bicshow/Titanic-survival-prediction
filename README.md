@@ -1,37 +1,42 @@
 # Titanic Survival Prediction 🚢
 
-This is my first end-to-end Machine Learning project using the Titanic dataset from Kaggle.
+This project uses the classic Titanic dataset to predict whether a passenger survived or not, based on features like age, fare, gender, and class.
 
 ## 📌 Objective
-Predict whether a passenger survived the Titanic disaster based on features like age, fare, class, and gender.
+Build a machine learning model that predicts passenger survival using exploratory data analysis and classification algorithms.
 
-## 📊 Technologies & Concepts Used
-- Python 🐍
+## 🔍 Key Concepts Learned
+- Data cleaning and preprocessing
+- Label encoding for categorical variables
+- Exploratory data analysis (EDA) with seaborn & matplotlib
+- Training models (Logistic Regression, Random Forest)
+- Evaluation using accuracy, confusion matrix, precision/recall/F1-score
+
+## 🧪 Model Results
+Final Accuracy: **81.0%** using Random Forest Classifier
+
+[[89 16]
+[18 56]]
+
+
+## 📊 Visualizations
+- Heatmap for feature correlation
+- Histograms to observe age vs. survival
+- Countplots for gender and Pclass vs. survival
+- Boxplot for Fare vs. survival
+
+## 🧠 Tools & Libraries
+- Python
 - Pandas, NumPy
-- Seaborn & Matplotlib (for visualizations)
-- Scikit-Learn (Logistic Regression & Random Forest)
-- Data Cleaning, Label Encoding, Model Evaluation
+- Seaborn, Matplotlib
+- Scikit-learn
 
-## 📈 Model Performance
-Achieved **81% accuracy** using a Random Forest Classifier.
-
-## 📁 Files Included
-- `Titanic_Model.ipynb`: Complete code with explanations and visualizations
-- `README.md`: This file
-- (Optional) `requirements.txt`: Python libraries
-
-## ✅ What I Learned
-- How to handle and explore datasets
-- Visualizing relationships using heatmaps, countplots, and boxplots
-- Training ML models and evaluating them
-- The importance of data preprocessing and feature selection
-
-## 🚀 Future Improvements
-- Hyperparameter tuning using GridSearchCV
-- Try other models like SVM, XGBoost
-- Add a user input interface using Streamlit or Flask
+## 📈 Future Plans
+- Improve feature engineering
+- Try advanced models like XGBoost, LightGBM
+- Deploy using Streamlit
 
 ---
 
-This project marks the beginning of my machine learning journey.  
-Stay tuned — many more projects to come!
+Made with ❤️ by Vishwajeet Survase
+
